@@ -32,3 +32,4 @@ Earlier, the repos lacked context and explanation.
 Instead of listing everything, I highlighted practical skills like Linux, Bash, Git, Docker, and Nginx practice.
 - This makes my profile reflect a clear career direction rather than random experimentation.
 
+![After Profile](images/after.png)
