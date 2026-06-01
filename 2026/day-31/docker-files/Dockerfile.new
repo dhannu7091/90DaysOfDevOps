@@ -1,0 +1,17 @@
+# Get the base image
+FROM ubuntu
+
+# Set a work directory
+WORKDIR /work-file
+
+# Copy file from host to image
+COPY demo.txt .
+
+# Expose the port
+EXPOSE 81
+
+# Execute command during build
+RUN echo "Port 81 exposed"
+
+# Default command
+CMD ["echo", "This is my second Dockerfile"]
